@@ -20,7 +20,7 @@ while(True):
     op= int(input())
     
     if(op == 1):
-        print("Informe o Valor a Depositado:")
+        print("Informe o Valor ser a Depositado:")
         valor = float(input())
         if(valor <= 0):
             print("Operação não Realizada!,Digite um valor valido para o depósito")
